@@ -15,8 +15,8 @@ body {
   font-family: "Raleway", Arial, sans-serif;
   line-height: 1.6;
   font-size: 16px;
-  background: #121212;
-  color: #848484;
+  background: #ffffff;
+  color: #000000;
   font-weight: 300;
   overflow-x: hidden;
 }
@@ -85,6 +85,12 @@ figure {
     height: 700px;
   }
 }
+
+.test {
+  height: 100%;
+  width: 100%;
+}
+
 .fh5co-cover.fh5co-hero-2,
 .fh5co-hero.fh5co-hero-2 {
   height: 600px;
@@ -98,7 +104,7 @@ figure {
   bottom: 0;
   right: 0;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(255, 255, 255, 0.8);
 }
 
 .fh5co-overlay {
@@ -346,7 +352,7 @@ figure {
 }
 
 .sf-menu a {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   padding: 0.75em 1em !important;
   font-weight: normal;
   border-left: none;
@@ -508,7 +514,7 @@ figure {
   top: 50%;
   margin-top: -7px;
   content: "\e922";
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 #fh5co-primary-menu > li > ul li {
   position: relative;
@@ -652,7 +658,7 @@ figure {
 }
 #fh5co-contact .contact-info li a {
   font-weight: 400 !important;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 #fh5co-contact .form-control {
   -webkit-box-shadow: none;
@@ -671,7 +677,7 @@ figure {
   border-radius: 0px;
 }
 #fh5co-contact .form-control:focus, #fh5co-contact .form-control:active {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.5);
 }
 #fh5co-contact input[type="text"] {
   height: 50px;
